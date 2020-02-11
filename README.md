@@ -1,0 +1,2 @@
+# Car_Black_Box
+This is a car black box project implemented on a PIC18F4580 micro-controller board using xc8 compiler. It can store the data log of last 10 events about a vehicle which includes changing of gear, collision and other events like change of password, change of time, downloading &amp; clearing of log. It also stores vehicle speed. The black box is password protected and one can perform operations like viewing, clearing, downloading the data log as well as setting time &amp; changing the password.
