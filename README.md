@@ -18,10 +18,10 @@ Long pressing of matrix SW11 for 3 sec(changeable) performs the rsepective funct
 
 In View log, one can see last 10 possible events stored in the data log.
 
-If clear log is selected then a message appears on the screen saying that the log is cleared. Now, in the view log mode, only 1 clear log event is visble. Rest of the events will not be visible to user. Scrolling operation will be ineffective.
+If clear log is selected then a message appears on the screen saying that the log is cleared. Now, in the view log mode, only 1 'clear log' event is visble. Rest of the events will not be visible to user. Scrolling operation will be ineffective.
 
-In Set time mode, one can set the time value. This is done using the same matrix SW11 & matrix SW12. Matrix SW11 is used to slect Hr-Min-Sec filed which keeps rotating when pressed again & again. Matrix SW12 is used to increment particular value. The on-board RTC clock is configured in 24 Hr format. This operation is also considered as an event and stored into internal eeprom.
+In Set time mode, one can set the time value. This is done using the same matrix SW11 & matrix SW12. Matrix SW11 is used to select Hr-Min-Sec field which keeps rotating when pressed again & again. The on-board RTC clock is configured in 24 Hr format. Matrix SW12 is used to increment the selected field value. 'Set time' operation is also considered as an event and stored into internal eeprom.
 
-In change password mode, one can set a new password. In this, after entering the password once, the user will be asked to re-enter the password. Now the user has to give the same pattern. Otherwise, it repeats enter & re-enter cycles. If user doesn't provide any input for 15 sec (changeable) then he/she will be taken back to menu. This operation is also considered as an event and stored into internal eeprom.
+In 'change password' mode, one can set a new password. In this, after entering the password once, the user will be asked to re-enter the password. Now the user has to give the same pattern. Otherwise, it repeats enter & re-enter cycles. If user doesn't provide any input for 15 sec (changeable) then he/she will be taken back to menu screen. This operation is also considered as an event and stored into internal eeprom.
 
-In download log, one has to open the serial terminal like minicom or PuTTY etc. on the PC and connect the board with it. After long pressing download log option, the data log will be printed on the serial monitor. This operation is also considered as an event and stored into internal eeprom.
+In 'download log', one has to open the serial terminal like minicom or PuTTY etc. on the PC and connect the board with it. After long pressing download log option, the data log will be printed on the serial monitor. This operation is also considered as an event and stored into internal eeprom.
