@@ -11,7 +11,7 @@ Matrix SW2 is used to pass the gear up event.
 Matrix SW3 is used to pass the gear down event.
 These event types are stored onto internal eeprom at any time in any display mode. Note that other events are not displayed on dashboard. They are visible only in view log & download log operation.
 
-Matrx SW11 when pressed once takes the user to password screen. Now the user has to provide the correct password. Initial password is "1010"(changeable). Same Matrix SW11 is used to write '1' while Matrix SW12 is used to write '0'. With every entry, user can just see a '*' on the screen. User has to provide the password within 5 sec(changeable). Otherwise dashboard screen will reopen. If password is correct then, a menu screen opens up. Here, user can scroll up and down using the same matrx SW11 & matrix SW12 key respectively.
+Matrx SW11 when pressed once takes the user to password screen. Now the user has to provide the correct password. Initial password is "1010"(changeable). Same Matrix SW11 is used to write '1' while Matrix SW12 is used to write '0'. With every entry, user can just see a '*' on the screen. User has to provide the password within 5 sec(changeable). Otherwise dashboard screen will reopen. If password is correct then, a menu screen opens up. Here, user can scroll up and down using the same matrix SW11 & matrix SW12 key respectively.
 If password does not match, 4(changeable) more tries are given to user. If user fails to provide the correct password after 5th try then, the screen will be locked for 30 sec(changeable). After 30 sec, user can retry again further 5 times.
 
 Long pressing of matrix SW11 for 3 sec(changeable) performs the rsepective functionality.
