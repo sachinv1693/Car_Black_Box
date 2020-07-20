@@ -3,7 +3,7 @@
 Initially run the Makefile from CBB_Helper folder.
 It stores the initial values in the internal eeprom.
 After this, run the Makefile from CBB_main folder.
-This loads the project onto PIC18F4580 micro-controller board. An on-board CLCD screen is used to create an interactive interface.
+This starts executing the project onto PIC18F4580 micro-controller board. An on-board CLCD screen is used to create an interactive interface.
 
 Initially a dashboard screen is displayed. It shows current time, last occurred event and vehicle speed. Vehicle speed can be varied using the on-board POT(potentiometer).
 Matrix SW1 is used to register the Collision event.
