@@ -6,9 +6,9 @@ After this, run the Makefile from CBB_main folder.
 This loads the project onto PIC18F4580 micro-controller board. An on-board CLCD screen is used to create an interactive interface.
 
 Initially a dashboard screen is displayed. It shows current time, last occurred event and vehicle speed. Vehicle speed can be varied using the on-board POT(potentiometer).
-Matrix SW1 is used to pass the Collision event.
-Matrix SW2 is used to pass the gear up event.
-Matrix SW3 is used to pass the gear down event.
+Matrix SW1 is used to register the Collision event.
+Matrix SW2 is used to register the gear up event.
+Matrix SW3 is used to register the gear down event.
 These event types are stored onto internal eeprom at any time in any display mode. Note that other events are not displayed on dashboard. They are visible only in view log & download log operation.
 
 Matrx SW11 when pressed once takes the user to password screen. Now the user has to provide the correct password. Initial password is "1010"(changeable). Same Matrix SW11 is used to write '1' while Matrix SW12 is used to write '0'. With every entry, user can just see a '*' on the screen. User has to provide the password within 5 sec(changeable). Otherwise dashboard screen will reopen. If password is correct then, a menu screen opens up. Here, user can scroll up and down using the same matrix SW11 & matrix SW12 key respectively.
