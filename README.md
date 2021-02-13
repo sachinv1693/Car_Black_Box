@@ -1,6 +1,6 @@
 # Car_Black_Box
 
-Initially run the Makefile from CBB_Helper folder.
+Initially run the Makefile from CBB_eeprom_loader folder.
 It stores the initial values in the internal eeprom.
 After this, run the Makefile from CBB_main folder.
 This starts executing the project onto PIC18F4580 micro-controller board. An on-board CLCD screen is used to create an interactive interface.
